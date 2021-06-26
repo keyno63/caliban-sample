@@ -83,6 +83,13 @@ object ExampleData {
 
   case class Character(name: String, nicknames: List[String], origin: Origin, role: Option[Role])
 
+  val list = List(1,2,3)
+  list.length
+  list.indexOf(2)
+  val vect = Vector(1,2,3)
+  vect.length
+  vect.indexOf(2)
+
   case class CharactersArgs(origin: Option[Origin])
   case class CharacterArgs(name: String)
 
