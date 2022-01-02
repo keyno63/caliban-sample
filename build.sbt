@@ -4,8 +4,8 @@ version := "0.1"
 
 scalaVersion := "2.13.7"
 val circeVersion   = "0.13.0"
-val calibanVersion = "1.3.0"
-val tapirVersion   = "0.19.3"
+val calibanVersion = "1.3.1"
+val tapirVersion   = "0.19.1"
 
 lazy val common = project.settings(
   libraryDependencies ++= Seq(
